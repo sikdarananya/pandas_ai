@@ -83,7 +83,7 @@ logging.getLogger().addHandler(logging.StreamHandler(stream=sys.stdout))
 # In[19]:
 
 
-api_key ="3289261e6cc84fa8aef58d38e2264fa9"
+api_key =""
 
 openai.api_key = api_key
 
@@ -103,7 +103,7 @@ os.environ["OPENAI_API_VERSION"] = openai.api_version
 
 os.environ["OPENAI_API_BASE"] = openai.api_base
 
-os.environ["OPENAI_API_KEY"] = "3289261e6cc84fa8aef58d38e2264fa9"
+os.environ["OPENAI_API_KEY"] = ""
 llm = AzureOpenAI(
 
         deployment_name=deployment_name,
@@ -122,7 +122,7 @@ llm = AzureOpenAI(
 # In[24]:
 
 
-os.environ["PANDASAI_API_KEY"] = "$2a$10$Ak52bQ/Dg89kTLbwNCMPtul3UsqBtFGEanEUklFk0WzdDr8joYICm"
+os.environ["PANDASAI_API_KEY"] = ""
 
 
 # In[25]:
