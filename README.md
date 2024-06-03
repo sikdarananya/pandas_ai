@@ -1,4 +1,4 @@
-# pandas_ai
+# PandasAI
 
 PandasAI is a Python library that makes it easy to ask questions to your data in natural language.
 
