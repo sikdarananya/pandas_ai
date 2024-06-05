@@ -87,15 +87,15 @@ api_key =""
 
 openai.api_key = api_key
 
-openai.api_base = "https://openai-demo-mb-001.openai.azure.com/"
+openai.api_base = 
 
 openai.api_type = 'azure'
 
 openai.api_version = '2023-05-15'
 
-deployment_name = 'openaidemomb001'
+deployment_name = 
 
-deployment_name_embeddings = 'openaidemomb002'
+deployment_name_embeddings = 
  
 os.environ["OPENAI_API_TYPE"] = openai.api_type
 
